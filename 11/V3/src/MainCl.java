@@ -1,7 +1,7 @@
 
 public class MainCl extends Thread{
 
-    static int[] func(int[] gr) {
+    int[] func(int[] gr) {
     	 try {
    	 int ar[]=new int[gr.length];
         for(int i=0;i<gr.length;i++)
